@@ -12,16 +12,16 @@
 // TIME STUFF (e.g. 3 hours, 20 minutes and 16 seconds.
 // ********************************************************************************
 
-"KG_MINI_HOUR"                                          = "h";
-"KG_MINI_MINUTE"                                        = "m";
-"KG_MINI_SECOND"                                        = "s";
-"KG_HOUR"                                               = "hour";
-"KG_HOURS"                                              = "hours";
-"KG_MINUTE"                                             = "minute";
-"KG_MINUTES"                                            = "minutes";
-"KG_SECOND"                                             = "second";
-"KG_SECONDS"                                            = "seconds";
-"KG_TIME_AND_CONCATENATOR"                              = "and"; // e.g. 2 minutes >>>AND<<< 16 seconds.
+"KG_MINI_HOUR"                                          = "时";
+"KG_MINI_MINUTE"                                        = "分";
+"KG_MINI_SECOND"                                        = "秒";
+"KG_HOUR"                                               = "小时";
+"KG_HOURS"                                              = "小时";
+"KG_MINUTE"                                             = "分钟";
+"KG_MINUTES"                                            = "分钟";
+"KG_SECOND"                                             = "秒";
+"KG_SECONDS"                                            = "秒";
+"KG_TIME_AND_CONCATENATOR"                              = "又"; // e.g. 2 minutes >>>AND<<< 16 seconds. 这个需要斟酌一下，是否使用空格代替
 
 // ********************************************************************************
 // DATA SIZE FORMATS
@@ -41,10 +41,10 @@
 "KG_ALERT"                                              = "Alert";
 "KG_TRUE"                                               = "True";
 "KG_FALSE"                                              = "False";
-"KG_CANCEL"                                             = "Cancel";
-"KG_UPDATE"                                             = "Update";
-"KG_SEARCH"                                             = "Search";
-"KG_REFRESH"                                            = "Refresh";
+"KG_CANCEL"                                             = "取消";
+"KG_UPDATE"                                             = "更新";
+"KG_SEARCH"                                             = "查询";
+"KG_REFRESH"                                            = "刷新";
 "KG_YES"                                                = "Yes";
 "KG_YES_SURE"                                           = "Yes, I’m sure";
 "KG_NO"                                                 = "No";
@@ -83,12 +83,12 @@
 "KG_READY"                                              = "Ready";
 "KG_TRY_AGAIN"                                          = "Try again";
 "KG_CANCELLED"                                          = "Cancelled";
-"KG_SAVING"                                             = "Saving…";
-"KG_SEARCHING"                                          = "Searching…";
-"KG_UPDATING"                                           = "Updating…";
-"KG_WORKING"                                            = "Working…";
-"KG_SYNCING"                                            = "Syncing…";
-"KG_LOADING"                                            = "Loading…";
+"KG_SAVING"                                             = "正在保存...";
+"KG_SEARCHING"                                          = "正在查询...";
+"KG_UPDATING"                                           = "正在更新...";
+"KG_WORKING"                                            = "正在作业...";
+"KG_SYNCING"                                            = "正在同步...";
+"KG_LOADING"                                            = "正在加载...";
 "KG_IMPORT"                                             = "Import";
 "KG_IMPORTING"                                          = "Importing…";
 "KG_THANKS"                                             = "Thanks";
@@ -110,7 +110,7 @@
 "KG_OPEN_QUOTE"                                         = "“";
 "KG_CLOSE_QUOTE"                                        = "”";
 "KG_ADD"                                                = "Add";
-"KG_RENAME"                                             = "Rename";
+"KG_RENAME"                                             = "重命名";
 "KG_EDIT"                                               = "Edit";
 "KG_GOT_IT"                                             = "Got it";
 "KG_OOPS"                                               = "Oops";
@@ -160,7 +160,7 @@
 "MSGBOX_NO_APP_FOR_DOCUMENT"                            = "You don’t have any app installed that can open a document of this type.";
 "MSGBOX_NO_APP_FOR_DICTIONARY"                          = "The dictionary app you specified in general settings isn’t installed on this device.";
 
-"MSGBOX_BOOK_EXISTS"                                    = "This book is already in your library.";
+"MSGBOX_BOOK_EXISTS"                                    = "这本书已经在你的库中。";
 "MSGBOX_BOOK_WITH_FILE_EXISTS"                          = "A book with the specified filename already exists in your library.";
 "MSGBOX_BOOK_IMPORTED"                                  = "A book was added to your library.";
 "MSGBOX_BOOK_IMPORT_FAILED"                             = "Your book couldn’t be imported because it is damaged or encrypted.";
@@ -231,7 +231,7 @@
 // KEYBOARD SHORTCUTS
 // ********************************************************************************
 
-"KEYBOARD_SHORTCUT_MAIN_MENU"                           = "Main menu";
+"KEYBOARD_SHORTCUT_MAIN_MENU"                           = "主菜单";
 "KEYBOARD_SHORTCUT_MY_LIBRARY_MENU"                     = "My library menu";
 "KEYBOARD_SHORTCUT_FIND"                                = "Find";
 "KEYBOARD_SHORTCUT_NEW"                                 = "New";
@@ -389,8 +389,8 @@
 // ********************************************************************************
 
 "DOWNLOAD_HELPER_PERCENT_PROGRESS"                      = "%.0f%% of %@"; // First %.0f = percentage zero decimal places, note the double %% escape after it, second %@ = total size of download.
-"DOWNLOAD_HELPER_DOWNLOADING"                           = "Downloading…";
-"DOWNLOAD_HELPER_STARTING"                              = "Starting…";
+"DOWNLOAD_HELPER_DOWNLOADING"                           = "下载中...";
+"DOWNLOAD_HELPER_STARTING"                              = "开始...";
 "DOWNLOAD_HELPER_BOOK_DOWNLOAD_MESSAGE"                 = "Download and import book from ‘%@’? The book will be added to your library."; // %@ will contain the URL host showing the book's origin.
 "DOWNLOAD_HELPER_AUTHENTICATION_ERROR"                  = "Authentication error.";
 "DOWNLOAD_HELPER_INVALID_ADDRESS"                       = "The address of the book you selected is invalid.";
@@ -424,12 +424,12 @@
 "INTERCHANGE_FILE_OPDS_FAVOURITES_IMPORT_SUCCESS"       = "Your OPDS favorites have been imported into Marvin.";
 "INTERCHANGE_FILE_OPDS_FAVOURITES_IMPORT_ERROR"         = "An error occured importing an OPDS favorites file. Please make sure it isn’t corrupted.";
 
-"INTERCHANGE_FILE_BOOKMARK_TITLE"                       = "Import bookmark";
-"INTERCHANGE_FILE_BOOKMARK_IMPORT_SUCCESS"              = "Your bookmark has been imported into Marvin.";
+"INTERCHANGE_FILE_BOOKMARK_TITLE"                       = "导入书签";
+"INTERCHANGE_FILE_BOOKMARK_IMPORT_SUCCESS"              = "你的书签已经导入到Marvin。";
 "INTERCHANGE_FILE_BOOKMARK_IMPORT_ERROR"                = "An error occured importing a bookmark file. Please make sure it isn’t corrupted.";
 
-"INTERCHANGE_FILE_BOOKMARKS_TITLE"                      = "Import bookmarks";
-"INTERCHANGE_FILE_BOOKMARKS_IMPORT_SUCCESS"             = "Your bookmarks have been imported into Marvin.";
+"INTERCHANGE_FILE_BOOKMARKS_TITLE"                      = "导入书签";
+"INTERCHANGE_FILE_BOOKMARKS_IMPORT_SUCCESS"             = "你的书签已经导入到Marvin。";
 "INTERCHANGE_FILE_BOOKMARKS_IMPORT_ERROR"               = "An error occured importing one or more bookmarks. Please make sure the bookmarks file isn’t corrupted.";
 
 "INTERCHANGE_FILE_ENTRY_TITLE"                          = "Import entry or annotation";
@@ -449,7 +449,7 @@
 // SPLASH SCREEN (SplashViewController)
 // ********************************************************************************
 
-"SPLASH_LOADING_YOUR_LIBRARY"                           = "Loading your library…";
+"SPLASH_LOADING_YOUR_LIBRARY"                           = "正在加载库...";
 
 "SPLASH_GET_STARTUP_PASSWORD_TITLE"                     = "Startup password";
 "SPLASH_GET_STARTUP_PASSWORD_MESSAGE"                   = "Enter your startup password.";
@@ -2764,7 +2764,7 @@
 // This is generic and used across ebooks of different types (e.g. epub, cbr, ...)
 // ********************************************************************************
 
-"END_OF_BOOK_TITLE"                                     = "Congratulations!";
+"END_OF_BOOK_TITLE"                                     = "恭喜！";
 
 "END_OF_BOOK_BEGINNING_OF_BOOK_ACTIONS"                 = "Beginning of book actions";
 "END_OF_BOOK_END_OF_BOOK_ACTIONS"                       = "End of book actions";
@@ -2798,7 +2798,7 @@
 // This is generic and used across ebooks of different types (e.g. epub, cbr, ...)
 // ********************************************************************************
 
-"IAP_UPGRADE_BANNER_PRIMARY_TEXT"                       = "Get the full version";
+"IAP_UPGRADE_BANNER_PRIMARY_TEXT"                       = "获取完整版本";
 "IAP_UPGRADE_BANNER_SECONDARY_TEXT"                     = "Upgrade to the full version to enable full-screen reading.";
 
 "IAP_MINIMISE_BANNER_PRIMARY_TEXT"                      = "Tap to minimise";
