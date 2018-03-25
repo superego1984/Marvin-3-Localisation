@@ -35,90 +35,90 @@
 // GENERAL
 // ********************************************************************************
 
-"KG_OK"                                                 = "OK";
-"KG_OK_CAREFUL"                                         = "OK (careful)";
-"KG_HELP"                                               = "Help";
-"KG_ALERT"                                              = "Alert";
-"KG_TRUE"                                               = "True";
-"KG_FALSE"                                              = "False";
+"KG_OK"                                                 = "好";
+"KG_OK_CAREFUL"                                         = "好（注意）";
+"KG_HELP"                                               = "帮助";
+"KG_ALERT"                                              = "警告";
+"KG_TRUE"                                               = "正确";
+"KG_FALSE"                                              = "错误";
 "KG_CANCEL"                                             = "取消";
 "KG_UPDATE"                                             = "更新";
 "KG_SEARCH"                                             = "查询";
 "KG_REFRESH"                                            = "刷新";
-"KG_YES"                                                = "Yes";
-"KG_YES_SURE"                                           = "Yes, I’m sure";
-"KG_NO"                                                 = "No";
+"KG_YES"                                                = "是";
+"KG_YES_SURE"                                           = "是，我确认";
+"KG_NO"                                                 = "否";
 "KG_NONE"                                               = "None";
-"KG_CONTINUE"                                           = "Continue";
-"KG_CONFIRM"                                            = "Confirm";
-"KG_CREATE"                                             = "Create";
-"KG_IGNORE"                                             = "Ignore";
-"KG_DELETE"                                             = "Delete";
-"KG_REMOVE"                                             = "Remove";
-"KG_CLEAR"                                              = "Clear";
-"KG_LINK"                                               = "Link";
-"KG_UNLINK"                                             = "Unlink";
-"KG_OVERWRITE"                                          = "Overwrite";
-"KG_OVERWRITE_CAREFUL"                                  = "Overwrite (careful)";
-"KG_REPLACE_CAREFUL"                                    = "Replace (careful)";
-"KG_MERGE"                                              = "Merge";
-"KG_SKIP"                                               = "Skip";
-"KG_RESUME"                                             = "Resume";
-"KG_DOWNLOAD"                                           = "Download";
-"KG_DOWNLOADED"                                         = "Downloaded";
-"KG_ENABLE"                                             = "Enable";
-"KG_DISABLE"                                            = "Disable";
-"KG_FINISH"                                             = "Finish";
-"KG_SHARE"                                              = "Share";
-"KG_SAVE_TO_CAMERA_ROLL"                                = "Save to camera roll";
-"KG_OPTIONS"                                            = "Options";
-"KG_MORE_OPTIONS"                                       = "More options";
-"KG_NOT_NOW"                                            = "Not now";
-"KG_EVERYWHERE"                                         = "Everywhere";
-"KG_SAVED"                                              = "Saved";
-"KG_ADDED"                                              = "Added";
-"KG_BOTTOM"                                             = "Bottom";
-"KG_DEFAULT"                                            = "Default";
-"KG_DONE"                                               = "Done";
-"KG_READY"                                              = "Ready";
-"KG_TRY_AGAIN"                                          = "Try again";
-"KG_CANCELLED"                                          = "Cancelled";
+"KG_CONTINUE"                                           = "继续";
+"KG_CONFIRM"                                            = "确认";
+"KG_CREATE"                                             = "新建";
+"KG_IGNORE"                                             = "忽略";
+"KG_DELETE"                                             = "删除";
+"KG_REMOVE"                                             = "移除";
+"KG_CLEAR"                                              = "清除";
+"KG_LINK"                                               = "连接";
+"KG_UNLINK"                                             = "分离";
+"KG_OVERWRITE"                                          = "重写";
+"KG_OVERWRITE_CAREFUL"                                  = "重写（注意）";
+"KG_REPLACE_CAREFUL"                                    = "替换（注意）";
+"KG_MERGE"                                              = "合并";
+"KG_SKIP"                                               = "跳过";
+"KG_RESUME"                                             = "恢复";
+"KG_DOWNLOAD"                                           = "下载";
+"KG_DOWNLOADED"                                         = "已下载";
+"KG_ENABLE"                                             = "开启";
+"KG_DISABLE"                                            = "关闭";
+"KG_FINISH"                                             = "完成";
+"KG_SHARE"                                              = "分享";
+"KG_SAVE_TO_CAMERA_ROLL"                                = "保存到图片";
+"KG_OPTIONS"                                            = "选项";
+"KG_MORE_OPTIONS"                                       = "更多选项";
+"KG_NOT_NOW"                                            = "现在不";
+"KG_EVERYWHERE"                                         = "到处";
+"KG_SAVED"                                              = "已保存";
+"KG_ADDED"                                              = "已添加";
+"KG_BOTTOM"                                             = "底部";
+"KG_DEFAULT"                                            = "默认";
+"KG_DONE"                                               = "完成";
+"KG_READY"                                              = "准备好";
+"KG_TRY_AGAIN"                                          = "重试";
+"KG_CANCELLED"                                          = "已取消";
 "KG_SAVING"                                             = "正在保存...";
 "KG_SEARCHING"                                          = "正在查询...";
 "KG_UPDATING"                                           = "正在更新...";
 "KG_WORKING"                                            = "正在作业...";
 "KG_SYNCING"                                            = "正在同步...";
 "KG_LOADING"                                            = "正在加载...";
-"KG_IMPORT"                                             = "Import";
-"KG_IMPORTING"                                          = "Importing…";
-"KG_THANKS"                                             = "Thanks";
-"KG_WARNING"                                            = "Warning";
-"KG_EXPORTING"                                          = "Exporting…";
-"KG_PREPARING"                                          = "Preparing…";
-"KG_TAP_TO_CANCEL"                                      = "(tap to cancel)";
-"KG_TAP_WHEN_READY"                                     = "(tap when ready)";
-"KG_COVER"                                              = "Cover…";
-"KG_ACCESSING_STORE"                                    = "Accessing store…";
-"KG_DOWNLOADING"                                        = "Downloading…";
-"KG_AGAIN_WHEN_DONE"                                    = "Tap again when done";
-"KG_OPEN_IN"                                            = "Open in…";
+"KG_IMPORT"                                             = "导入";
+"KG_IMPORTING"                                          = "正在导入...";
+"KG_THANKS"                                             = "感谢";
+"KG_WARNING"                                            = "警告";
+"KG_EXPORTING"                                          = "正在导出...";
+"KG_PREPARING"                                          = "正在准备...";
+"KG_TAP_TO_CANCEL"                                      = "（轻点以取消）";
+"KG_TAP_WHEN_READY"                                     = "（准备好后轻点）";
+"KG_COVER"                                              = "封面...";
+"KG_ACCESSING_STORE"                                    = "正在访问商店...";
+"KG_DOWNLOADING"                                        = "正在下载...";
+"KG_AGAIN_WHEN_DONE"                                    = "完成后请再次轻点";
+"KG_OPEN_IN"                                            = "其他方式打开";
 "KG_X_OF_Y"                                             = "%lu of %lu"; // Careful, parameters here.
-"KG_ON"                                                 = "On";
-"KG_OFF"                                                = "Off";
-"KG_ENABLED"                                            = "Enabled";
-"KG_DISABLED"                                           = "Disabled";
+"KG_ON"                                                 = "开";
+"KG_OFF"                                                = "关";
+"KG_ENABLED"                                            = "已开启";
+"KG_DISABLED"                                           = "已关闭";
 "KG_OPEN_QUOTE"                                         = "“";
 "KG_CLOSE_QUOTE"                                        = "”";
-"KG_ADD"                                                = "Add";
+"KG_ADD"                                                = "添加";
 "KG_RENAME"                                             = "重命名";
-"KG_EDIT"                                               = "Edit";
-"KG_GOT_IT"                                             = "Got it";
-"KG_OOPS"                                               = "Oops";
-"KG_COPY"                                               = "Copy";
-"KG_COPIED"                                             = "Copied";
-"KG_INFO"                                               = "Info";
-"KG_TIP"                                                = "Tip";
-"KG_DO_NOT_QUIT"                                        = "Do not quit Marvin";
+"KG_EDIT"                                               = "编辑";
+"KG_GOT_IT"                                             = "明白了";
+"KG_OOPS"                                               = "哎哟";
+"KG_COPY"                                               = "复制";
+"KG_COPIED"                                             = "已复制";
+"KG_INFO"                                               = "信息";
+"KG_TIP"                                                = "提示";
+"KG_DO_NOT_QUIT"                                        = "不退出Marvin";
 "KG_APP_STORE"                                          = "App Store";
 
 // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -131,29 +131,29 @@
 // GENERAL
 // ********************************************************************************
 
-"DISCARD_CHANGES"                                       = "Discard changes";
-"SAVE_CHANGES"                                          = "Save changes";
+"DISCARD_CHANGES"                                       = "放弃更改";
+"SAVE_CHANGES"                                          = "放弃更改";
 
-"ICLOUD_NOT_AVAILABLE"                                  = "You are not logged into iCloud on this device. You may log in to your account from the settings app on your device.";
+"ICLOUD_NOT_AVAILABLE"                                  = "你还没有登录iCloud。你可以在手机的设置程序中登录你的iCloud账户。";
 
-"DATE_TODAY"                                            = "Today";
-"DATE_YESTERDAY"                                        = "Yesterday";
-"DATE_THIS_WEEK"                                        = "This week";
-"DATE_LAST_WEEK"                                        = "Last week";
-"DATE_THIS_MONTH"                                       = "This month";
-"DATE_LAST_MONTH_OR_OLDER"                              = "%lu days ago";
+"DATE_TODAY"                                            = "今天";
+"DATE_YESTERDAY"                                        = "昨天";
+"DATE_THIS_WEEK"                                        = "本周";
+"DATE_LAST_WEEK"                                        = "上周";
+"DATE_THIS_MONTH"                                       = "本月";
+"DATE_LAST_MONTH_OR_OLDER"                              = "%lu 天前";
 
 // Lower case version of above - use lowercase as appropriate for the language in question.
-"DATE_TODAY_LOCASE"                                     = "today";
-"DATE_YESTERDAY_LOCASE"                                 = "yesterday";
-"DATE_THIS_WEEK_LOCASE"                                 = "this week";
-"DATE_LAST_WEEK_LOCASE"                                 = "last week";
-"DATE_THIS_MONTH_LOCASE"                                = "this month";
+"DATE_TODAY_LOCASE"                                     = "今天";
+"DATE_YESTERDAY_LOCASE"                                 = "昨天";
+"DATE_THIS_WEEK_LOCASE"                                 = "本周";
+"DATE_LAST_WEEK_LOCASE"                                 = "上周";
+"DATE_THIS_MONTH_LOCASE"                                = "本月";
 
-"MSGBOX_IMPORT_CONFIRM_BY_FILENAME"                     = "Import %@?"; // %@ = filename.
+"MSGBOX_IMPORT_CONFIRM_BY_FILENAME"                     = "导入 %@?"; // %@ = filename.
 
-"MSGBOX_FILE_1_MULTI_IMPORT_FAILED"                     = "1 file couldn’t be imported because it is damaged or encrypted.";
-"MSGBOX_FILE_X_MULTI_IMPORT_FAILED"                     = "%lu files couldn’t be imported because they are damaged or encrypted.";
+"MSGBOX_FILE_1_MULTI_IMPORT_FAILED"                     = "1个文件因为损坏或加密而无法导入。";
+"MSGBOX_FILE_X_MULTI_IMPORT_FAILED"                     = "%lu 个文件因为损坏或加密而无法导入。";
 
 "MSGBOX_FILE_X_MULTI_IMPORT_FAILED_DELETE"              = "%lu file(s) couldn’t be imported because they are damaged or encrypted. Consider removing them from this device not to see this error again. A list of failed files has been saved in /Documents/Logs/failed.txt";
 "MSGBOX_NO_APP_FOR_URL"                                 = "You don’t have any app installed that can execute this command.";
@@ -161,9 +161,9 @@
 "MSGBOX_NO_APP_FOR_DICTIONARY"                          = "The dictionary app you specified in general settings isn’t installed on this device.";
 
 "MSGBOX_BOOK_EXISTS"                                    = "这本书已经在你的库中。";
-"MSGBOX_BOOK_WITH_FILE_EXISTS"                          = "A book with the specified filename already exists in your library.";
-"MSGBOX_BOOK_IMPORTED"                                  = "A book was added to your library.";
-"MSGBOX_BOOK_IMPORT_FAILED"                             = "Your book couldn’t be imported because it is damaged or encrypted.";
+"MSGBOX_BOOK_WITH_FILE_EXISTS"                          = "库中已经存在一本同名的书。";
+"MSGBOX_BOOK_IMPORTED"                                  = "一本书已经添加到库中。";
+"MSGBOX_BOOK_IMPORT_FAILED"                             = "你的书因为损坏或加密而无法导入。";
 "MSGBOX_BOOK_IMPORT_FAILED_TOO_BIG"                     = "Your book couldn’t be imported because the file is too large and you have ‘large file skipping’ enabled in settings.";
 "MSGBOX_BOOK_NOT_SUPPORTED_TYPE"                        = "Marvin doesn’t support this kind of document (%@)."; // Document type.
 
