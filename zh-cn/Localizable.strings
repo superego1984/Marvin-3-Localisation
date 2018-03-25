@@ -21,7 +21,7 @@
 "KG_MINUTES"                                            = "分钟";
 "KG_SECOND"                                             = "秒";
 "KG_SECONDS"                                            = "秒";
-"KG_TIME_AND_CONCATENATOR"                              = "又"; // e.g. 2 minutes >>>AND<<< 16 seconds. 这个需要斟酌一下，是否使用空格代替
+"KG_TIME_AND_CONCATENATOR"                              = "又"; // e.g. 2 minutes >>>AND<<< 16 seconds. TODO:这个需要斟酌一下，是否使用空格代替
 
 // ********************************************************************************
 // DATA SIZE FORMATS
@@ -164,24 +164,24 @@
 "MSGBOX_BOOK_WITH_FILE_EXISTS"                          = "库中已经存在一本同名的书。";
 "MSGBOX_BOOK_IMPORTED"                                  = "一本书已经添加到库中。";
 "MSGBOX_BOOK_IMPORT_FAILED"                             = "你的书因为损坏或加密而无法导入。";
-"MSGBOX_BOOK_IMPORT_FAILED_TOO_BIG"                     = "Your book couldn’t be imported because the file is too large and you have ‘large file skipping’ enabled in settings.";
-"MSGBOX_BOOK_NOT_SUPPORTED_TYPE"                        = "Marvin doesn’t support this kind of document (%@)."; // Document type.
+"MSGBOX_BOOK_IMPORT_FAILED_TOO_BIG"                     = "你的书无法导入，因为文件尺寸太大且你开启了‘忽略大文件’设置‘。";
+"MSGBOX_BOOK_NOT_SUPPORTED_TYPE"                        = "Marvin不支持这个文件类型 (%@)。"; // Document type.
 
-"UNNAMED_CHAPTER_TO_UNTITLED_SECTION_NUMBER"            = "Untitled section %lu"; // %lu = section number.
-"UNNAMED_CHAPTER_TO_UNTITLED_SECTION"                   = "Untitled section";
+"UNNAMED_CHAPTER_TO_UNTITLED_SECTION_NUMBER"            = "无标题章节%lu"; // %lu = section number.
+"UNNAMED_CHAPTER_TO_UNTITLED_SECTION"                   = "无标题章节";
 
-"COLOUR_RED"                                            = "Red";
-"COLOUR_YELLOW"                                         = "Yellow";
-"COLOUR_PINK"                                           = "Pink";
-"COLOUR_BLUE"                                           = "Blue";
-"COLOUR_GREEN"                                          = "Green";
-"COLOUR_PURPLE"                                         = "Purple";
-"COLOUR_ORANGE"                                         = "Orange";
+"COLOUR_RED"                                            = "红色";
+"COLOUR_YELLOW"                                         = "黄色";
+"COLOUR_PINK"                                           = "粉红色";
+"COLOUR_BLUE"                                           = "蓝色";
+"COLOUR_GREEN"                                          = "绿色";
+"COLOUR_PURPLE"                                         = "紫色";
+"COLOUR_ORANGE"                                         = "橘色";
 
-"UNKNOWN_AUTHOR"                                        = "Unknown author";
+"UNKNOWN_AUTHOR"                                        = "作者不详";
 
 // The tip to show when speed scrubbing.
-"SCRUBBING_SPEED_TIP"                                   = "Scrubbing at %.0f%% speed."; // %.1f = speed.
+"SCRUBBING_SPEED_TIP"                                   = "正在以 %.0f%% 的速度擦洗。"; // %.1f = speed.
 
 // This is a COMMA SEPARATED list of title sort prefixes…
 // The End of the Affair --> End of the Affair, The
@@ -191,6 +191,7 @@
 "TITLE_SORT_PREFIXES_IT"                                = ""; // Comma separated - NO SPACES!
 "TITLE_SORT_PREFIXES_FR"                                = ""; // Comma separated - NO SPACES!
 "TITLE_SORT_PREFIXES_ES"                                = ""; // Comma separated - NO SPACES!
+"TITLE_SORT_PREFIXES_ZH"                                = ""; // Comma separated - NO SPACES!
 // and so on...
 
 // Suffix and prefix contractions for dictionary normalisation.
@@ -200,6 +201,7 @@
 "SUFFIX_CONTRACTIONS_IT"                                = ""; // Comma separated - NO SPACES!
 "SUFFIX_CONTRACTIONS_FR"                                = ""; // Comma separated - NO SPACES!
 "SUFFIX_CONTRACTIONS_ES"                                = ""; // Comma separated - NO SPACES!
+"SUFFIX_CONTRACTIONS_ZH"                                = ""; // Comma separated - NO SPACES!
 
 // l'école --> école
 "PREFIX_CONTRACTIONS_EN"                                = ""; // Comma separated - NO SPACES!
@@ -207,7 +209,7 @@
 "PREFIX_CONTRACTIONS_IT"                                = ""; // Comma separated - NO SPACES!
 "PREFIX_CONTRACTIONS_FR"                                = "c',d',j',l',m',n',qu',s',t'"; // Comma separated - NO SPACES!
 "PREFIX_CONTRACTIONS_ES"                                = ""; // Comma separated - NO SPACES!
-
+"PREFIX_CONTRACTIONS_ZH"                                = ""; // Comma separated - NO SPACES!
 
 // ********************************************************************************
 // EMAIL
